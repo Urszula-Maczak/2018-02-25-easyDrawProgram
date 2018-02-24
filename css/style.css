@@ -1,0 +1,12 @@
+body {
+	height: 100vh; /*dzięki temu pojawia się boczne scrolowanie*/
+	margin: 0; /*pasel scrolowania zniknie i mamy czystą białą plansze do rysownia*/
+}
+/*div to będzie jedna kropka, którą będę rysować*/
+div {
+	width: 5px;
+	height: 5px; /*width i height to określa grubość pędzla*/
+	border-radius: 50%;
+	background-color: #000;	
+	position: absolute; /*porzebne, aby punkty rozmieszczały się po całym dokumencie*/
+}
